@@ -2,6 +2,7 @@ package com.rensource.videorental.models;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -13,6 +14,7 @@ import java.math.BigDecimal;
 @Entity
 @Data
 @AllArgsConstructor
+@NoArgsConstructor
 public class Order extends Audit implements Serializable {
 
     @Column(nullable = false)

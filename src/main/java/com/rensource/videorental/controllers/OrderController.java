@@ -1,7 +1,6 @@
 package com.rensource.videorental.controllers;
 
 import com.rensource.videorental.dtos.OrderDto;
-import com.rensource.videorental.dtos.VideoDto;
 import com.rensource.videorental.models.Order;
 import com.rensource.videorental.responses.Response;
 import com.rensource.videorental.services.orders.OrderService;
@@ -15,7 +14,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.validation.Valid;
-import java.util.List;
 
 @RestController
 @RequestMapping("/orders")

@@ -1,0 +1,6 @@
+INSERT INTO videos(title, type, genre, created_at, updated_at) values('An Army of The Dead', 'REGULAR', 'ACTION', '2008-01-01 00:00:01', '2008-01-01 00:00:01');
+INSERT INTO videos(title, type, genre,created_at, updated_at) values('The Ghost', 'REGULAR', 'HORROR', '2008-01-01 00:00:01', '2008-01-01 00:00:01');
+INSERT INTO videos(title, type, genre, maximum_age, created_at, updated_at) values('BumbleBee', 'CHILDREN_MOVIE', 'DRAMA', 12, '2008-01-01 00:00:01', '2008-01-01 00:00:01');
+INSERT INTO videos(title, type, genre, maximum_age, created_at, updated_at) values('Sofia The First', 'CHILDREN_MOVIE', 'COMEDY', 14, '2008-01-01 00:00:01', '2008-01-01 00:00:01');
+INSERT INTO videos(title, type, genre, release_year, created_at, updated_at) values('Gold Statue', 'NEW_RELEASE', 'ACTION', 2018, '2008-01-01 00:00:01', '2008-01-01 00:00:01');
+INSERT INTO videos(title, type, genre, release_year, created_at, updated_at) values('Jumanji', 'NEW_RELEASE', 'ROMANCE', 2019, '2008-01-01 00:00:01', '2008-01-01 00:00:01');
